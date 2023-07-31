@@ -1,0 +1,134 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    background: url(/img/fondo.jpg) no-repeat center center/cover;
+}
+
+
+
+.contenedor {
+    width: 700px;
+    min-height: 500px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+input {
+    width: 80%px;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(202, 202, 32);
+    border-radius: 15px;
+}
+
+
+button {
+    width: 150px;
+    height: 60px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(17, 15, 14);
+    
+
+}
+
+
+
+
+#lista-de-tareas {
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+
+.tarea {
+    width: 100%;
+    min-height: 70px;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    background-color: #67e6e6;
+    border: 2px solid rgb(190, 24, 24);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+
+.tarea.completada {
+    text-decoration: line-through;
+    background-color: rgb(134, 123, 123);
+    border: none;
+
+}
+
+
+.tarea p{
+    max-width: 350px;
+}
+
+
+
+i {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+.icono-completar {
+    color: red;
+
+}
+
+.icono-eliminar {
+    color: rgba(0, 0, 0, 0.829);
+}
+
+
+.icono-completar:hover,
+.icono-eliminar:hover {
+    background-color: rgba(207, 44, 44,);
+}
